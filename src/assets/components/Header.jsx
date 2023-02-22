@@ -166,7 +166,7 @@ export default function Header(props){
                 </div>
                 <div className="filter flex">
                   <div onClick={()=>props.handleClick(0)} className="filter--location">
-                  <DivComponent simple active type="location" value="douala, cameroon"   />
+                  <DivComponent simple active type="location" value={location}   />
         
                   </div>
                   <div onClick={()=>props.handleClick(1)} className="filter--guest">
